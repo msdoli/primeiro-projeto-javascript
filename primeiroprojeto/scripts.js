@@ -24,8 +24,8 @@ americavalue.innerHTML = new Intl.NumberFormat("en-us", {
     style: "currency",
     currency: "USD",
 }).format(input/dolar)
-}
 
+}
 changeCurrency = () => {
 const currencyName =document.getElementById("currency-name")
 const currencyImg = document.getElementById("currency-img")
